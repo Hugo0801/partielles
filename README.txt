@@ -11,4 +11,8 @@ git add .\code.txt
 git commit -m "1er version de code.txt"
 git commit -m "2e version"
 gît merge master
+git push -u origin ajout-code.txt
+
 gît checkout master
+git commit .\README.txt -m "3e version"
+git push -u origin master
